@@ -11,7 +11,76 @@
   tools:context="com.udacity.kg.appportfolio.MainActivity">
 
   <TextView
+    android:id="@+id/title"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="Hello World!"/>
+    android:layout_centerHorizontal="true"
+    android:text="@string/app_portfolio_list_title"
+    android:textSize="@dimen/app_portfolio_menu_title_text"/>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/title"
+    android:layout_marginEnd="@dimen/app_portfolio_button_layout_horizontal_margin"
+    android:layout_marginLeft="@dimen/app_portfolio_button_layout_horizontal_margin"
+    android:layout_marginRight="@dimen/app_portfolio_button_layout_horizontal_margin"
+    android:layout_marginStart="@dimen/app_portfolio_button_layout_horizontal_margin"
+    android:layout_marginTop="@dimen/app_portfolio_button_layout_vertical_margin"
+    android:orientation="vertical">
+
+    <Button
+      android:id="@+id/button_spotify_streamer"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/app_portfolio_button_height"
+      android:layout_marginBottom="@dimen/app_portfolio_button_bottom_margin"
+      android:background="@color/colorPrimary"
+      android:text="@string/button_title_spotify_streamer"
+      android:textColor="@color/white"/>
+
+    <Button
+      android:id="@+id/button_football_scores"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/app_portfolio_button_height"
+      android:layout_marginBottom="@dimen/app_portfolio_button_bottom_margin"
+      android:background="@color/colorPrimary"
+      android:text="@string/button_title_football_scores"
+      android:textColor="@color/white"/>
+
+    <Button
+      android:id="@+id/button_library_app"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/app_portfolio_button_height"
+      android:layout_marginBottom="@dimen/app_portfolio_button_bottom_margin"
+      android:background="@color/colorPrimary"
+      android:text="@string/button_title_library_app"
+      android:textColor="@color/white"/>
+
+    <Button
+      android:id="@+id/button_build_it_bigger"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/app_portfolio_button_height"
+      android:layout_marginBottom="@dimen/app_portfolio_button_bottom_margin"
+      android:background="@color/colorPrimary"
+      android:text="@string/button_title_build_it_bigger"
+      android:textColor="@color/white"/>
+
+    <Button
+      android:id="@+id/button_xyz_reader"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/app_portfolio_button_height"
+      android:layout_marginBottom="@dimen/app_portfolio_button_bottom_margin"
+      android:background="@color/colorPrimary"
+      android:text="@string/button_title_xyz_reader"
+      android:textColor="@color/white"/>
+
+    <Button
+      android:id="@+id/button_capstone"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/app_portfolio_button_height"
+      android:layout_marginBottom="@dimen/app_portfolio_button_bottom_margin"
+      android:background="@color/colorPrimary"
+      android:text="@string/button_title_capstone"
+      android:textColor="@color/white"/>
+  </LinearLayout>
 </RelativeLayout>
