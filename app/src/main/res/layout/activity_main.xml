@@ -36,7 +36,8 @@
       android:layout_marginBottom="@dimen/app_portfolio_button_bottom_margin"
       android:background="@color/colorPrimary"
       android:text="@string/button_title_spotify_streamer"
-      android:textColor="@color/white"/>
+      android:textColor="@color/white"
+      android:onClick="clickedSpotifyStreamerButton"/>
 
     <Button
       android:id="@+id/button_football_scores"
@@ -45,7 +46,8 @@
       android:layout_marginBottom="@dimen/app_portfolio_button_bottom_margin"
       android:background="@color/colorPrimary"
       android:text="@string/button_title_football_scores"
-      android:textColor="@color/white"/>
+      android:textColor="@color/white"
+      android:onClick="clickedFootballScoresButton"/>
 
     <Button
       android:id="@+id/button_library_app"
@@ -54,7 +56,8 @@
       android:layout_marginBottom="@dimen/app_portfolio_button_bottom_margin"
       android:background="@color/colorPrimary"
       android:text="@string/button_title_library_app"
-      android:textColor="@color/white"/>
+      android:textColor="@color/white"
+      android:onClick="clickedLibraryAppButton"/>
 
     <Button
       android:id="@+id/button_build_it_bigger"
@@ -63,7 +66,8 @@
       android:layout_marginBottom="@dimen/app_portfolio_button_bottom_margin"
       android:background="@color/colorPrimary"
       android:text="@string/button_title_build_it_bigger"
-      android:textColor="@color/white"/>
+      android:textColor="@color/white"
+      android:onClick="clickedBuildItBiggerButton"/>
 
     <Button
       android:id="@+id/button_xyz_reader"
@@ -72,7 +76,8 @@
       android:layout_marginBottom="@dimen/app_portfolio_button_bottom_margin"
       android:background="@color/colorPrimary"
       android:text="@string/button_title_xyz_reader"
-      android:textColor="@color/white"/>
+      android:textColor="@color/white"
+      android:onClick="clickedXYZReaderButton"/>
 
     <Button
       android:id="@+id/button_capstone"
@@ -81,6 +86,7 @@
       android:layout_marginBottom="@dimen/app_portfolio_button_bottom_margin"
       android:background="@color/colorPrimary"
       android:text="@string/button_title_capstone"
-      android:textColor="@color/white"/>
+      android:textColor="@color/white"
+      android:onClick="clickedCapstoneButton"/>
   </LinearLayout>
 </RelativeLayout>
